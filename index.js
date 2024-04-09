@@ -47,12 +47,11 @@ document.addEventListener("DOMContentLoaded", () => {
     applyColor(loveLetterDivElement, newColor);
 
     // add the newly created element and its content into the DOM (Multi Letter View with innerHTML)
-    const zineContainer = document.getElementById("web-zine");
-    zineContainer.appendChild(loveLetterDivElement);
+    // const zineContainer = document.getElementById("web-zine");
+    // zineContainer.appendChild(loveLetterDivElement);
 
     // const elmnt = document.querySelector(".love-letter");
-    dragElement(newLetter);
-    console.log("element", newLetter)
+    dragElement(document.querySelector(".love-letter"));
     })
 
   }
